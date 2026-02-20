@@ -32,7 +32,7 @@ Dashboard screenshots
 ![Executive Summary](Executive_summary.png)
 
 ### Sales Performance
-![Sales Performance](Sales_Performance.png)
+![Sales Performance](Sales_performance.png)
 
 ### Customer Insights
 ![Customer Insights](Customer_insights.png)
