@@ -26,6 +26,25 @@ Provided strategic recommendations for improving profitability
 Power BI (.pbix) file
 Dashboard screenshots
 
+# Dax Key measures developed
+Total Sales = SUM(Fact_Sales[Sales])
+
+Total Profit = SUM(Fact_Sales[Profit])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Sales])
+
+Total Orders = DISTINCTCOUNT(Fact_Sales[Order ID])
+
+YoY Growth % =
+VAR CurrentYearSales = [Total Sales]
+VAR PreviousYearSales =
+    CALCULATE(
+        [Total Sales],
+        SAMEPERIODLASTYEAR(Dim_Date[Date])
+    )
+RETURN
+DIVIDE(CurrentYearSales - PreviousYearSales, PreviousYearSales)
+
 ## 📸 Dashboard Preview
 
 ### Executive Summary
