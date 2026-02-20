@@ -2,7 +2,8 @@
 This project is an end-to-end Business Intelligence dashboard built in Power BI using the Global Superstore dataset. The goal was to analyze sales performance, profitability, and customer behavior to generate actionable business insights.
 
 # Tools & Skills Used
-Power BI
+Power BI.
+
 Power Query (Data Cleaning & Transformation)
 Star Schema Data Modeling
 DAX Measures (Sales, Profit Margin, YoY Growth)
