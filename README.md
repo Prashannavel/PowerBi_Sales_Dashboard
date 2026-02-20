@@ -49,13 +49,19 @@ Profit Margin % = DIVIDE([Total Profit], [Total Sales])
 Total Orders = DISTINCTCOUNT(Fact_Sales[Order ID])
 
 YoY Growth % =
+
 VAR CurrentYearSales = [Total Sales]
+
 VAR PreviousYearSales =
+
     CALCULATE(
+    
         [Total Sales],
+        
         SAMEPERIODLASTYEAR(Dim_Date[Date])
     )
 RETURN
+
 DIVIDE(CurrentYearSales - PreviousYearSales, PreviousYearSales)
 
 ## 📸 Dashboard Preview
