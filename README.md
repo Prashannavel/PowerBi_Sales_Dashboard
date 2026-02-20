@@ -23,8 +23,8 @@ Analyzed customer segments contributing most revenue
 Provided strategic recommendations for improving profitability
 
 # File Included
-Power BI (.pbix) file
-Dashboard screenshots
+*Power BI (.pbix) file
+*Dashboard screenshots
 
 # Dax Key measures developed
 Total Sales = SUM(Fact_Sales[Sales])
