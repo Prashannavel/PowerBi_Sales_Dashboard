@@ -29,13 +29,13 @@ Dashboard screenshots
 ## 📸 Dashboard Preview
 
 ### Executive Summary
-![Executive Summary](executive-summary.png)
+![Executive Summary](Executive-summary.png)
 
 ### Sales Performance
-![Sales Performance](sales-performance.png)
+![Sales Performance](Sales-performance.png)
 
 ### Customer Insights
-![Customer Insights](customer-insights.png)
+![Customer Insights](Customer-insights.png)
 
 ### Recommendations
-![Recommendations](recommendations.png)
+![Recommendations](Recommendations.png)
